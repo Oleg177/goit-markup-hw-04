@@ -383,9 +383,7 @@ margin-bottom: 9px;
 .contact-footer:focus {
     color: var(--color-text-focus);
 }
-/* .soc-footer {
-display: flex;
-} */
+
 .text-footer {
     color: var(--color-text-white);
     font-weight: 700;
@@ -419,11 +417,6 @@ display: flex;
     background-color: var(--color-text-focus);
 }
 
-/* .soc-item:hover .soc-icon,
-.soc-item:focus .soc-icon {
-    fill: var(--color-text-white);
-
-} */
 
 /* Portfolio section */
 .filter-container {
@@ -483,4 +476,13 @@ border-right: 1px solid #EEEEEE;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+}
+.portfolio-card {
+    flex-basis: calc((100%-60px)/3);
+    max-width: 370px;
+}
+.portfolio-card:hover {
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    
 }
